@@ -8,14 +8,13 @@ Given ('I am on climate counters home page',async function(){
     await testController.navigateTo(URL);
 
 });
-When ('I click the Human Induced Warming link',async function(){
+When ('I click the humaninducedWarming link',async function(){
     await testController
     .click(Selector('a').withText('Human Induced Warming'))
 });
-Then ('Then I should be able to see co2Emission counter successfully',async function(){
-   // await t
-    //.navigateTo('#root > div > div > div.sdc-climate-counter__contents > h3')
+Then ('I should be able to see humaninducedWarming counter successfully',async function(){
 
 
-await testController.expect(document.querySelector("#root > div > div > div.sdc-climate-counter__contents")().exists).ok;
+
+await testController.expect(document.querySelector("#root > div > div")().exists).ok;
   });
