@@ -1,18 +1,28 @@
 {
   "name": "climate-counter",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://testautomationu.applitools.com/testcafe-tutorial/chapter9.7.html https://testcafe.io/documentation/402639/reference/command-line-interface#file-pathglob-pattern",
   "main": "index.js",
-  "dependencies": {
-    "testcafe": "^1.14.0"
-  },
   "devDependencies": {
     "@cucumber/cucumber": "^7.2.1",
-    "cucumber": "^7.0.0-rc.0"
+    "cucumber": "^7.0.0-rc.0",
+    "cucumber-html-reporter": "^5.4.0",
+    "gherkin-testcafe": "^5.0.1",
+    "npm": "7.17.0",
+    "testcafe": "^1.14.2",
+    "testcafe-cucumber-steps": "^1.20.0"
   },
   "scripts": {
     "test": "cucumber-js"
   },
   "author": "GT",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gayathri83qa/Climate-Counter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gayathri83qa/Climate-Counter/issues"
+  },
+  "homepage": "https://github.com/gayathri83qa/Climate-Counter#readme"
 }
